@@ -1,3 +1,8 @@
+/*
+ * File: 5-print_numbers.c
+ * Auth: Brennan D Baraban
+ */
+
 #include <stdio.h>
 
 /**
@@ -14,5 +19,5 @@ int main(void)
 		printf("%d", n);
 
 	printf("\n");
-	return (0);
+return (0);
 }
