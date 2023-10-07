@@ -6,7 +6,8 @@
  * description: prints all alphbet letters lawercasa except q and e
  *
  * return: always 0 (success)
- */
+ *
+ * main return 0*/
 
 int main(void)
 {
