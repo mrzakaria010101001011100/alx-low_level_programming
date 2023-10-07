@@ -1,13 +1,12 @@
 #include <stdio.h>
 
 /**
- * main void - entry point
+ * main  - prints the alphabet in lowercase, except for q and e.
  *
- * description: prints all alphbet letters lawercasa except q and e
+ * description: using loop for and function if 
  *
- * return: always 0 (success)
+ * return: always 0.
  *
- * main return 0
  */
 
 int main(void)
