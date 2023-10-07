@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
- * entre point alphabet
+ * main - entry point
  *
- * we can use putchar in output
+ * description: print all alphabet letters
  *
- * alwys RETURN 0 (success)
+ * Return: Always 0 (success)
  */
 
 int main(void)
