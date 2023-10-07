@@ -2,11 +2,8 @@
 
 /**
  * main  - prints the alphabet in lowercase, except for q and e.
- *
- * description: using loop for and function if 
- *
+ * 
  * return: always 0.
- *
  */
 
 int main(void)
