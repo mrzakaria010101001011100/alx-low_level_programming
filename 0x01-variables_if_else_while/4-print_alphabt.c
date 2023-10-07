@@ -1,13 +1,14 @@
 #include <stdio.h>
 
 /**
- * main - entry point
+ * main void - entry point
  *
  * description: prints all alphbet letters lawercasa except q and e
  *
  * return: always 0 (success)
  *
- * main return 0*/
+ * main return 0
+ */
 
 int main(void)
 {
