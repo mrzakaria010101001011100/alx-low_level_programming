@@ -1,35 +1,40 @@
+/*
+ * File: 101-print_comb4.c
+ * Auth: Brennan D Baraban
+ */
+
 #include <stdio.h>
 
 /**
- * main - Write a program that prints all possible different combinations of three digits.
+ * main - Prints all possible combinations of three different digits,
+ *        in ascending order, separated by a comma followed by a space.
  *
- * The numbers should range from 0 to 99
- *
- * Return: Always 0
+ * Return: Always 0.
  */
-
 int main(void)
 {
-        int e, r, t;
+	int digit1, digit2, digit3;
 
-        for (e = 0; e < 8; e++)
-        {
-                for (r = e + 1; r < 9; r++)
-                {
-                        for (t = r + 1; t < 10; t++)
-                        {
-                                putchar((e % 10) + '0');
-				putchar((r % 10) + '0');
-				putchar((t % 10) + '0');
+	for (digit1 = 0; digit1 < 8; digit1++)
+	{
+		for (digit2 = digit1 + 1; digit2 < 9; digit2++)
+		{
+			for (digit3 = digit2 + 1; digit3 < 10; digit3++)
+			{
+				putchar((digit1 % 10) + '0');
+				putchar((digit2 % 10) + '0');
+				putchar((digit3 % 10) + '0');
 
-                                if (e == 7 && r == 8 && t == 9)
-                                	continue;
+				if (digit1 == 7 && digit2 == 8 && digit3 == 9)
+					continue;
+				
+				putchar(',');
+				putchar(' ');
+			}
+		}
+	}
 
-                                putchar(',');
-                                putchar(' ');
-                        }
-                }
-        }
-        putchar('\n');
-        return (0);
+	putchar('\n');
+
+	return (0);
 }
