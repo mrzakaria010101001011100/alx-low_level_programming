@@ -18,9 +18,10 @@ int main(void)
                 {
                         for (t = r + 1; t < 10; t++)
                         {
-                                putchar(e);
-                                putchar(r);
-                                putchar(t);
+                                putchar((e % 10) + '0');
+				putchar((r % 10) + '0');
+				putchar((t % 10) + '0');
+
                                 if (e != 7 && r != 8 && t != 9)
                                 {
                                         putchar(',');
