@@ -23,10 +23,10 @@ int main(void)
 				putchar((t % 10) + '0');
 
                                 if (e != 7 && r != 8 && t != 9)
-                                {
-                                        putchar(',');
-                                        putchar(' ');
-                                }
+                                	continue;
+
+                                putchar(',');
+                                putchar(' ');
                         }
                 }
         }
