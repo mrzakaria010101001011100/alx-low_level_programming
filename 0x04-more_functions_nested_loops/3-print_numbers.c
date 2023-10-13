@@ -1,18 +1,18 @@
-#include"main.h"
+#include "main.h"
 
 /**
  * print_numbers - print 0 - 9
  * onlty using _putchar twice
  * Return: Always 0
 */
+
 void print_numbers(void);
 {
-	int mun = 0;
+	int num = 0;
 
-	while (mun <= 9)
-	{
-		_putchar(mun);
-		mun++;
-	}
+	do {
+		_putchar(num + 48);
+		num++;
+	} while (num >= 0 && num <= 9);
 	_putchar('\n');
 }
