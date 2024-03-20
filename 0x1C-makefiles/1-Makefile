@@ -1,0 +1,7 @@
+school:
+	@echo "all"
+CC = gcc
+CC = ${CC}
+
+school: SRC
+    @echo ${CC} SRC
